@@ -1,0 +1,13 @@
+i = 0
+cups = 8
+cupAmount = 0
+while i < 100 {
+i++
+show("ounce(s):")
+show(i)
+cupAmount=i*cups
+showln("")
+show("cups: 
+")
+show(cupAmount)
+}
